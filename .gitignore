@@ -1,0 +1,22 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+# Project
+dist/
+node_modules/
+package-lock.json
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Visual Studio Code
+.vscode/
