@@ -21,9 +21,10 @@ $ npm start
 ## Apk into directory
 apk
 ```
-set write permissions in the  phone for the app 
+-set write permissions in the  phone for the app 
+-the app consume services from server https://dev.tuten.cl/TutenREST/rest/user/
 ```
-
+``:)``
 
 
 
