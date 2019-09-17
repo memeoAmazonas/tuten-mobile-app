@@ -17,9 +17,9 @@ const filterData = (data) => {
         let aux = i.parentBooking;
         let tutenUSer = i.locationId.tutenUser;
         result.push({
-            bookingId: i.bookingId,
+            bookingId: parseInt(i.bookingId),
             bookingTime: setDate(i.bookingTime),
-            bookingPrice: i.bookingPrice,
+            bookingPrice: parseInt(i.bookingPrice),
             streetAddress: i.locationId.streetAddress,
             name: `${tutenUSer.firstName} ${tutenUSer.lastName}`,
         });
@@ -29,7 +29,7 @@ const filterData = (data) => {
                 result.push({
                     bookingId: aux.bookingId,
                     bookingTime: setDate(aux.bookingTime),
-                    bookingPrice: aux.bookingPrice,
+                    bookingPrice: parseInt(aux.bookingPrice),
                     streetAddress: aux.locationId.streetAddress,
                     name: `${tutenUSer.firstName} ${tutenUSer.lastName}`,
                 });
@@ -37,9 +37,9 @@ const filterData = (data) => {
             } else {
                 tutenUSer = aux.locationId.tutenUser;
                 result.push({
-                    bookingId: aux.bookingId,
+                    bookingId: parseInt(aux.bookingId),
                     bookingTime: setDate(aux.bookingTime),
-                    bookingPrice: aux.bookingPrice,
+                    bookingPrice: parseInt(aux.bookingPrice),
                     streetAddress: aux.locationId.streetAddress,
                     name: `${tutenUSer.firstName} ${tutenUSer.lastName}`,
                 });

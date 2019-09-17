@@ -4,11 +4,6 @@
     "slug": "tuten-mobile-app",
     "privacy": "public",
     "sdkVersion": "34.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +20,11 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.pansobao.tutenmobileapp"
+    },
+    "description": "React native mobile for tuten",
+    "githubUrl": "https://github.com/memeoAmazonas/tuten-mobile-app"
   }
 }
