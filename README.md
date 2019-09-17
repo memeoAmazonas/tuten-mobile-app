@@ -18,6 +18,11 @@ To start the app, run the following command:
 ```bash
 $ npm start
 ```
+## Apk into directory
+apk
+```
+set write permissions in the  phone for the app 
+```
 
 
 
